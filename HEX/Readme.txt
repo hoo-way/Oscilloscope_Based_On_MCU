@@ -1,0 +1,1 @@
+Program the Hex to EFM8UB10F16G-B-QFN28 to make it a oscilloscope device.
