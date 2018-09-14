@@ -2,7 +2,7 @@
 
 ## 1 Introduction
 
-The Oscilloscope Simulation System base on EFM8UB1 is intended to bring a tool to sample ADC value and display it as waveform on a computer screen, Through a combination of hardware and software, it looks like a real oscilloscope.
+The Oscilloscope Simulation System base on Silabs MCU device EFM8UB1 is intended to bring a tool to sample ADC value and display it as waveform on a computer screen, Through a combination of hardware and software, it looks like a real oscilloscope.
 
 The software architecture of system consist of firmware running on EFM8UB1 STK and application running on a computer. The GUI application running on a computer is developed by python 2.7, pyside2, Qt5, and USBxpress library.
 
@@ -38,7 +38,8 @@ See more info from http://wiki.qt.io/Qt_for_Python/GettingStarted.
 
 ### 2.3 Firmware Programming
 
-The compiled firmware is located directory Bin/, program the Hex file to EFM8 Universal Bee Starter Kit (SLSTK2000A) to make it as a oscilloscope device.
+The compiled firmware is located directory Bin/, program the Hex file to Silabs device EFM8 Universal Bee Starter Kit (SLSTK2000A) to make it as a oscilloscope device.
+See more info about from Silabs device EFM8 Universal Bee Starter Kit https://www.silabs.com/products/development-tools/mcu/8-bit/slstk2000a-efm8-universal-bee-starter-kit
 
 ### Connection
 
